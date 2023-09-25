@@ -110,7 +110,7 @@ window.addEventListener("keydown", (e) => {
   inputDir = { x: 0, y: 1 }; // Start the game
   move.currentTime = 0;
   move.play();
-//   music.play();
+  music.play();
   if (e.code === "ArrowUp") {
     console.log("Up key");
     inputDir.x = 0;
